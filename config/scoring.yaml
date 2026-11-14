@@ -1,0 +1,14 @@
+# Pesos del score (0–100). Cambiá los números y volvé a correr; no hace falta tocar código.
+sin_web: 40
+solo_redes: 35
+web_mala_min: 20        # se aplica en la Fase 2, según la auditoría
+web_mala_max: 30
+resenas_max: 20         # escala logarítmica
+resenas_saturacion: 300 # con esta cantidad de reseñas ya suma el máximo
+rating_minimo: 4.2
+rating_bonus: 10
+ticket_alto: 10
+celular: 10
+sin_telefono: -30
+cercania_max: 5
+cercania_km_max: 30     # a esta distancia (o más) de la base, cercanía = 0

@@ -1,0 +1,13 @@
+# Topes para que nunca se pase del plan gratis. Si se alcanza un tope, el comando frena.
+# Places Text Search con teléfono/web/rating = SKU "Enterprise": 1.000 llamadas gratis por mes.
+apis:
+  places_text_search:
+    por_dia: 40
+    por_mes: 950
+    usd_por_1000: 35.0   # solo para estimar si alguna vez se pasa del cupo gratis
+  pagespeed:
+    por_dia: 500
+    por_mes: 10000
+    usd_por_1000: 0.0
+
+contactos_nuevos_por_dia: 20

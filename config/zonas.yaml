@@ -1,0 +1,13 @@
+# Zonas de búsqueda. lat/lng es el centro aproximado; radius_km sesga la búsqueda
+# y max_km descarta resultados que Google devuelva demasiado lejos.
+base: bella-vista   # zona desde donde se mide la "cercanía" del score
+
+zonas:
+  bella-vista:   {label: "Bella Vista",  lat: -34.5652, lng: -58.6960, radius_km: 4, max_km: 8}
+  san-miguel:    {label: "San Miguel",   lat: -34.5430, lng: -58.7120, radius_km: 4, max_km: 8}
+  muniz:         {label: "Muñiz",        lat: -34.5515, lng: -58.7010, radius_km: 3, max_km: 6}
+  jose-c-paz:    {label: "José C. Paz",  lat: -34.5150, lng: -58.7680, radius_km: 5, max_km: 9}
+  hurlingham:    {label: "Hurlingham",   lat: -34.5886, lng: -58.6394, radius_km: 4, max_km: 8}
+  ituzaingo:     {label: "Ituzaingó",    lat: -34.6584, lng: -58.6669, radius_km: 4, max_km: 8}
+  moreno:        {label: "Moreno",       lat: -34.6510, lng: -58.7900, radius_km: 5, max_km: 10}
+  pilar:         {label: "Pilar",        lat: -34.4587, lng: -58.9142, radius_km: 6, max_km: 12}

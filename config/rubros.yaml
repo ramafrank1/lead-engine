@@ -1,0 +1,43 @@
+# Rubros. `queries` son las búsquedas que se mandan a Google (se prueban en orden
+# hasta llegar a --max). `ticket_alto` suma puntos en el score.
+rubros:
+  corralones:
+    label: "Corralón / materiales de construcción"
+    queries: ["corralón", "materiales de construcción", "corralón de materiales"]
+    ticket_alto: false
+  constructoras:
+    label: "Constructora"
+    queries: ["constructora", "empresa constructora", "construcción de viviendas"]
+    ticket_alto: true
+  concesionarias:
+    label: "Concesionaria"
+    queries: ["concesionaria de autos", "agencia de autos usados", "concesionaria"]
+    ticket_alto: true
+  mayoristas:
+    label: "Mayorista / distribuidora"
+    queries: ["mayorista", "distribuidora", "distribuidora de bebidas", "mayorista de alimentos"]
+    ticket_alto: true
+  gimnasios:
+    label: "Gimnasio"
+    queries: ["gimnasio", "gym", "crossfit"]
+    ticket_alto: false
+  logistica:
+    label: "Logística / transporte"
+    queries: ["transporte de cargas", "logística", "fletes"]
+    ticket_alto: false
+  ferreterias:
+    label: "Ferretería"
+    queries: ["ferretería", "ferretería industrial"]
+    ticket_alto: false
+  veterinarias:
+    label: "Veterinaria / forrajería"
+    queries: ["veterinaria", "forrajería", "pet shop"]
+    ticket_alto: false
+  esteticas:
+    label: "Estética"
+    queries: ["centro de estética", "estética", "spa"]
+    ticket_alto: false
+  talleres:
+    label: "Taller mecánico"
+    queries: ["taller mecánico", "mecánica del automotor", "taller de chapa y pintura"]
+    ticket_alto: false
